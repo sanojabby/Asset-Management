@@ -1,0 +1,8 @@
+CREATE DATABASE data;
+
+CREATE USER 'root'@'localhost' IDENTIFIED BY '';
+
+GRANT ALL PRIVILEGES ON `data` . * TO 'root'@'localhost';
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY '';
+ALTER USER 'root'@'localhost' IDENTIFIED BY '';
